@@ -1,0 +1,19 @@
+name: Docker CI
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Build backend Docker image
+        run: docker build ./backend -t backend-test
+      - name: Build frontend Docker image
+        run: docker build ./frontend -t frontend-test
