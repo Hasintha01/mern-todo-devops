@@ -41,3 +41,4 @@ coverage/
 # Optional: test reports
 test-results/
 
+backend/.env.save
