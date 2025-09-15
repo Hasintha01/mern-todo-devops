@@ -17,7 +17,7 @@ This is a full-stack MERN To-Do application that allows users to create, update,
 - Continuous Deployment to cloud platforms (AWS, Railway, Render, etc.)
 - Automated infrastructure setup using Terraform / Ansible (Infrastructure as Code)
 - Monitoring, logging, and alerting using Prometheus, Grafana, or ELK stack
-- Secure management of environment variables and secrets (DevSecOps)
+- Secure management of environment variables and secrets 
 
 ---
 
